@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "333899011308",
+    "project_id": "aecommerce-31537",
+    "storage_bucket": "aecommerce-31537.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333899011308:android:bfb842043a77b3b34301c9",
+        "android_client_info": {
+          "package_name": "com.trop.a_ecommer.a_ecomerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333899011308-5rpuq5qocctc6d1rruum8c7k81qcj867.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trop.a_ecommer.a_ecomerce",
+            "certificate_hash": "f9349b91c4d6546cda31d550b6d1814f6c26c173"
+          }
+        },
+        {
+          "client_id": "333899011308-q72e7gdhelfhh196v2fjd4dpithv7dra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbIYbSBY2Cf98WdW3A50mUxgSdjqqfIuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333899011308-q72e7gdhelfhh196v2fjd4dpithv7dra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
