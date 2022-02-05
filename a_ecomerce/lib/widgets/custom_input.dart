@@ -2,12 +2,12 @@ import 'package:a_ecomerce/screens/constains.dart';
 import 'package:flutter/material.dart';
 class CustomInput extends StatelessWidget {
  final String hintText;
- final Function(String) onChanged;
+ final Function(String)? onChanged;
  final Function(String)? onSubmitted;
  final TextInputAction? textInputAction;
 final bool isPasswordField;
  final FocusNode? focusNode;
-   CustomInput({required this.onChanged , this.hintText='', this.focusNode , this.onSubmitted , this.textInputAction , this.isPasswordField = false}  );
+   CustomInput({ this.onChanged , this.hintText='', this.focusNode , this.onSubmitted , this.textInputAction , this.isPasswordField = false}  );
   @override
   Widget build(BuildContext context) {
     bool _isPasswordField = isPasswordField ?? false;

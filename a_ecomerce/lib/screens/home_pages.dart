@@ -1,3 +1,4 @@
+import 'package:a_ecomerce/services/firebase_services.dart';
 import 'package:a_ecomerce/tabs/home_tab.dart';
 import 'package:a_ecomerce/tabs/saved_tab.dart';
 import 'package:a_ecomerce/tabs/search_tab.dart';
@@ -14,10 +15,14 @@ class HomePage extends StatefulWidget {
 }
 
 class _Homepage extends State<HomePage> {
+  FireabaseServices _fireabaseServices = FireabaseServices();
+
+
   late PageController _tabsPagesController;
 
   @override
   void initState(){
+    print("UserId: ${_fireabaseServices.getUserid()}");
     _tabsPagesController = PageController();
     super.initState();
   }
